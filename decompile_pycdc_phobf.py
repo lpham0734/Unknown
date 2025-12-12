@@ -1,0 +1,252 @@
+# Source Generated with Decompyle++
+# File: dump_2_phobf_pyc.pyc (Python 3.12)
+
+import marshal
+import hashlib
+import random
+import sys
+import os
+import time
+import zlib
+import types
+import base64
+from datetime import datetime
+from rich.console import Console
+from rich.panel import Panel
+from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn
+from rich.text import Text
+from rich.table import Table
+from rich.prompt import Prompt, Confirm
+from rich.align import Align
+from rich import box
+from rich.live import Live
+RICH_AVAILABLE = True
+console = Console()
+
+class AdvancedMathEncoder:
+    '''Ultra-complex mathematical equation encoder'''
+    
+    def __init__(self):
+        self.ops = [
+            (lambda x, a, b, c: f'''((lambda _v: (_v if ({a}%2==0) else _v))({x}))'''),
+            (lambda x, a, b, c: f'''(({x} if ({a}*{b})%{c + 1}!=0 else {x}))'''),
+            (lambda x, a, b, c: f'''(({x}|{a}) if ({a}&1)==0 else ({x}&~{a})|{x})'''),
+            (lambda x, a, b, c: if a < b:
+f'''((lambda t: t)( {x} ))'''f'''{'((lambda t: t)( '} ))'''),
+            (lambda x, a, b, c: f'''(({x}+({a}-{a})))'''),
+            (lambda x, a, b, c: f'''(({x}^{a})^{a})'''),
+            (lambda x, a, b, c: f'''(({x}+{a * b}) - ({a * b})))'''),
+            (lambda x, a, b, c: f'''(({x} and {x} or ({x})))'''),
+            (lambda x, a, b, c: f'''((lambda q: q)( {x} if ({a}|{b}) else {x} ))'''),
+            (lambda x, a, b, c: f'''(({x}+({a}<<0)-({a}<<0)))'''),
+            (lambda x, a, b, c: f'''(abs({x} + {a} - {a}) if {b}%2 else abs({x}-{a}+{a}))'''),
+            (lambda x, a, b, c: f'''(({x} ^ ({b}&0)) + 0)''')]
+
+    
+    def encode(self = None, val = None):
+        for _ in range(40):
+            op = random.choice(self.ops)
+            a = random.randint(1, 50)
+            b = random.randint(1, 50)
+            c = random.randint(1, 50)
+            expr = op(val, a, b, c)
+            if eval(expr) == val:
+                
+                return range(40), expr
+        return f'''({val})'''
+        continue
+
+    
+    def encode_all(self, data):
+        '''Encode bytecode'''
+        for None in :
+            pass
+        return b,
+        
+
+
+
+class AntiProtection:
+    generate_anti_code = (lambda : "_mod=_t.ModuleType('hidden_module')\n_code=_m.loads(_z.decompress(_b.b64decode('eNqtWntwFMeZn5md2fd7pRUSQhIIIxaDhIQAG2TC6oUki5UQAmLZeLPaGa1W2pd6ZvVYSzb2uQ4JK4e4OEFUcUG4crEI5IwvdRVccZ2xc67Ddanyrlec5LGuyndJ3R3/yeC6EPLH3dezT9CikKpbUM9M9zfdX3/9PX5f9/yWyPopktd7NyiCOE+wBEv6iJ7ElewhpSvVQ0lXWY9MutI9tHRlehjpKu+RS1dFj0K6KnuUKtwD5aP8qh4VSbCyN4keNUtDqWEZKLWsHEodRwwUE6t+rGJwK0GgTymCowZKcrQrr5KJux4jZxzYtJqix8SpBjavrudMTkv63jiwNcebefDmttX1Ei/bc/SYc5wUfx6Ky3MWZI24M8eI63KPCOPV5KytzcnFnj+L5z1r8Mxw6zI8sypYp2JWDeUGVgNlCauFspTVQVkGI5RdTc1jI6uHuk2sAcpyaClPtZAJbdrcsxlq6YG2nJxuHmjPsdJG1nSVepg/khgjy6F8gZghp3eMyl4gRkib+Q5ucthIUTniDQhjIY53Z3ckS/7d+5qQtJwU0k0D1OpxhwlEjlGs7EmoBDpNI19NM6DKMSs6NRdkZZms99U5aOWFGX4UT8LPmNKmcohau6Oxq6O10dnV0dHdLeq7m7oOH/uu83hT19HWDofI+LyB8GhE7Q76KwUO+cOjCHcoaluPtjhbHUDtsLc32+QiFeRFBRcY9qJgQJTxY7yoDPlcQl8Q+UU1L7iQwI94hX6RdiHP8BXiHubjgbKu38uyXOCAaPLyzj6Xj+ecoSDvFbzDHDIDhRL++KNQnCKWFPkXzZeKLhTFFOXzjUuKgos1l/Zd2BdTPDXPLivUp8dfH19UlMQUJbMjC4qK+fYPGz5q+aDl5pEPno9tPxTt7H7kfY0RGaFfN5lr8XdKiy+k21IKymsFWapuPFvR4N8V0mGjJKZFJoRAt0DHyFEe05QhE65W864+mB9uQ9huDLjHPGlyy5riBU3JslI36fq+ckVGaEsT3GWvGp3irpbE3Kmy+Mu1yCmeJwiBWc0zSw42glr5x+Gu8DEqOUGOkwPK1fXIkLuepXBPAZKVTVCCJs2bdjUlvK/PUUtFML3p8XNJcT9geTwNuBC6iDgK8hljEuY/xiSNX+64gwWY0GDiDmZMVIQDg4HgSMCmFhXeAB/i3ILIgL66B0WZjwuITB9y+TlR6w6ynNMdDAjcqCAq+l18v8/bK8r87G5R2ecFSkwl5wKYTlT1c6Os18Pxgk0mkrxI9omkm8djl5UllcHg4QSn2+XzcciJe0PYs+Np8acljVihFIxuWW06u2Nqx1tVk+SyRj859NaemY1nnlnSG2bIKfbswNTApH1p81PvOt5xTA6dfXXq1VnXF4ayG9SkfdlSdH7/uf1z5Lvqy+r56svaxdLaWGltvHRP3LJ30WKPWexxS8PNhptdUUtLVNuyoiC0eStaQpt/f4UhGd2SUrukyXvAYxG9Ua+vtxCfWKj6Alluhdz6iLmwZLZpJBeBSC4C5YhseNEVELwny3jO1+dkQUoo7BbKWC/v6vVxrI2UrANh85CsICEw3UPUCIcrHPJ5c8KAVJZo3q7bqtr7S7RxqvEBj/XzdY2O+D5lkolUQIhoBzkU4Hy7aipZn++heahS8zDCjE6rTqtPa3IZP/hMMmP+A/SaJqfIGIWgWstvZ0wyFb+Qbjyn0eDxKeKQhJFYWkgbYC5TuipLmTAFxpbmi8ri37gG/zLBkuEfIs/aM6BSM8iiy3tCulz9ydISSTquCXqcZhkJ672S9a411xgD63LEVm2ueBnJcigT2XMsytFvdnsOJJq1GiWPR0ypFR4oe0IemcG9Sb3LjL4pFw5OjXBGM6XJhTMn5FC/ZXX9GZUHUPI75Bn1pGpSPanpkwGOU04ossbbmouvtNyUoF9yKntFt60pnRwoU0gHr4HKNVt3Pl7PxxVPqFvKR9eChLrHy/4oYVM7uu/8L/wechmpaHnvx5Lr4wicAEHyQ3Ky3JExAqrcB0Axdzu00I95k0m+KYd2dc43FY/r08P0yDHIe1AC4IrlesMeD8c6AfaywRG+ss4XhPDDH6jsFKmu6jvYnYmyTq4XnmruUIknLwtPuxw2hah0OnGEczpFtdPpD7JhH77XOp1DYZcv2SJ3S3haVLqdw0Ev6wyJCrcz7AsGPPB6n5fzsbzzUa9OdqJquOKl5Tko3iSWCtbPNl/quNAxb48V74haK68z1/t+GXw/GK1qvkXfOv658zNn9OTLscMvRw85o66+qMe/6AnHPOHo94ajo+MrBPEq2Uj9Hl8OU98kLlA5SjrwxdpBTbUkxj+YggIIJzkRdZjnUCI62BhREfT5xthej0iP4tKIpdbrkbCA2+fiAetGxmDaXndEh4LuwbKkeJE7G4kxyZB+7z+h+KHsPDGlGCDXCgHIuXaAyQTWCYoipphxcHhQJ0urMvWkqUXG1U/JG4mTGxNOdlw2TPDktJLNDhS5zCjNhzNNN11OE2MyG+3w0tB2B7d3Q15gaOVPSBp33Mt7IbyjOrzs+W7EuQTOGQ54JWDVG+7r45DIDLt8YQ6SjuAIh9BzQGlTimS/SPpEslckBWSVdOaQSLaLZFiK8WX4d+rUqYQ6Ue7eSOma2u7uxd3yTijuQ1JhMC4aymKGsjnTgqF82bxu0VwZM1fO83HzrhnyS6NpZuOMfcb9tnrJbDlfca7i/I5zO35QNUN+VVg0Y18qWDdr/+vhG+TF4UuvXXhtfiheWn27dC/A96L1X1sKJC2zFYqmVr4xqR2diOM5QP9YaCJd39HRLhY19HPuwS7OHxS4R8kkUTG9Y4jrQ634XnVUAj9hBDI61t7hOCQWOoQjYQ6NtQZwpuUSvMFAJygkBxoq570RLtgniRHVSiO6XTyA184OKXEDe3X2jgkc2CuGtQEBXoGlamxvFzVNgbA/sWy8qD/ECYn7bsC+J0TG7YQMRtScaHU0H3M0dL/Q2SR1FQz6RLrlhKNRlLd32rvsh21akWQlMxPJkEghH6qQ3EoInAzZhLowXzi6oA5cdOLiiJRkpZYV/w4ePJhYWkuOZUU+aHkav9MN+vYglUfNCctqcwY4PzXXe836XvGV4uuuq6ULmmdh0c+OnBmZFb6lSFUH9bZ80VgWM5Z9S+Cnf1dr3irHb1nOHpg6ENesn6SW1eVz9XNDmT4+tH604YMNN4fiz7b+Zsvn2z/bHj3xQrytJ65+cZJc0mgnXWdql43W84ZzBgDgzGXmXc1lzbz9si5urJxsWDbkn31l6pXZXaA1r1549Vrfe/4r/nhpXdzw3KKhOWZoXjS0xwzttwDKd4AvXFYb8UxmtXH1U9C7WoOfpJtFdVFMXTRJiurWSfJ/KIVq3bdGQmM6u31q+8wQnvmXSlVU3Tq9ZVFdHFMXXzx+6eSFk9eeee+5K899uO6j0g9K4+rWW5vi6sO/6fvc95kv+uJL/xJcUL4sSWdqZJacikSVhavTUCaFls+sSkMz7glcym6MgwHJynKFwxQdOJv87PR0QLFGYicrzMJSLI0TWHh/N+QYDA18qADTZSENdc59j90szRI++QTJKiAJNeTaM/SkZ7FWKrpWCirtrzCsCqRQLqFu5Vq4eKBgLawMMyxPzHBMncikpsOJTCr5VJvMqzSOiKkqBLZfhROlKkhhhTAfUXcjlxs8ipfdh5pTAa8bMZJn6UNe1iVSId5GRUqq+DFe4PxVkNbiP6lth8fFQp5ayQcjpVWsS3BVSW60SvCHqhBXKdFUQtgc5lAzWDsdDHEBpJOMHLsIhg/5vALC4QepEzsg4d5Q0j1p3djxOYNhIRQWRDnL4UCA2iQ/FXIJ/ZBMj3p5gbfJJK+P+JS7eDiPNma7BQgno2gUqrG35H+WTKRljGnZlB+12v7VtA0SZtDv8anx2fbbBts19/WNv6x4v+IXthv297fHK79zk4xX2j/b/I2MMD+9IqcZ05Km8GLXpZ4LPTFNxVfaDUsG6+y2xaLqWFH19drrW+JFzy4WHYwVHYwX1S8WtcSKWuJFbTFDW/Toid/qjmAvoju7d2ov9iSzG29rii93Q3DQd5Ffa4z3V0wEY5pq/OOKWro+4G041y6t30u8g4uPKRKXtFQq7PL6A8Qne6n6/bJPDlAN1MOJuDJlkh/C6p6Wn1bgjcuJLMPMgGgwvVSaOazK2hli00nXBAkpAf0OOUHBlYGrbJwCRW7DCCGT1mZgNphRLoRAs/IULkmbk+7xJnNGIaSNcVLRB+b5pnJc1rhq5wfMoXkcjDSiw+5lup3G4+dIZVkVGCHgI1adoIS5aGAuzDgDczmL58Jqx+m1OAIkZGZ1f4pGGkOfGEMw/9lmTmfNqx3WozBLfgbWeM2UkuHA+jVc0VpylWfJVQ5yNb+pZC2r5Zo9j+lz2J1mtgByJbxpp6wfpJJvJ9cEy3zwJZw6JR3UPz7krj7KfsrQJp1YniOxOWcGr+MKsAjSCFfI6+OGOV/EmKyoDPKV9WGvjwV0qWludRxq6ursAkQjMoc7GpvaRe1hu+NYs72h+1gXgBymvssOkETR2dXReKyhW5Q3Nh1vbWjCEN/DBTjkdYtKzh/2uYQgAv/EDjo9of5ggBPVnmDQA1kOVME9FxgDhAboChXl2jXeha0P59c/JJ+HmZ2HmZ1UJnZQp6hh4kfkeZIkptXgxImfy0ZIlJfa4LLJRKpyZxLXDiddWxLMquowh6MhdCCyGbxciksn/B/2ZxBtmup7WI9wT/f/G2NbcHiXh+Y2zgzN2t8evjz0h3s4ofgLvYmUAoGNEpWeoI/t8/Lgaod7g6PP7EFY/WxMIhZUSXlOFev3VnlZHFhYQJ5SEhixJuOMm/dWsdyw180BIuwLiubj9cHRQ2GOF+ws68XS4iPa44dHXIgr6wZ4yIv0EMxCpPFw6K9SqZdIIlHu9QSCiLOR4PYRCiL+/1PE6LR0hIILTyaAJKSMpnDy90Ty9eJ312XJty1W0ZoSMNz+AZ3Bw9GiYtiLBMiLQa5+PPnEVM/iRoO0d+wSBIQ0UkR0Or3+UBAJkD/LeAFhrRRwMygu1vFEQJS5AmNQEXQhNhFNh3ExgouQFDAhm2JFlTsUdrqD4YBgUyIcTdDhdJ47iIt+SdjHJSGgSTybdAZVloLZplWSQHNQfwJTt8Ka/AGSJrnilH1ZoZ/mo5aKBcXWFUqpyl/Wr4sWPh3Xb5+0i/oOXDw/af8q3zpDLpvz3/bMui55LnjmXPNU3Pp03Lx90VwTM9fEzbXQbrHGsapCcdtim6+ed12pvVK9whDWghU5YTRhNBotqooZqq6brtvfz7tu+g+575T9K50eo23TzJHzJ86d+MELMcD9W+bt7x26cuhqa2zT7utDNza+L1wfejQGAx7QFS6brbBslrmWBfOONCuL5n0x8764uS7JE15eKBcsbbfst4Y+a7xlv7+iIfSGFT0FiAK6rZuqews6/UKzfvbIHHmhe/bI1xj9T9Weev7+SiGhyj9H/3HFSOgKz0GYl0OYn2xcShE84HHe8iN7URNDfFyNy1+X2GVNWuqfNhc3WYhPGapJJftUSzUZmU8tVNN6WW4Q3kYmjikB1ILvVWEITa6R7eMTnTUBOYnjKZODQpZ1crRV2pSkIUakdxty711JlBYW7zDoJSCsWQ1wSXxIQOOIwyoy7Zmj+7WiWy4A/xAIBx7HVMnIc+KhONSa/TSmSsYfdSL+eBJdfP0dAMaq6pq9lTvhX7X3HS/Gzjsk7xnRvlT5Usgb4rQYBEf0yaeXEogZBbBXMWThcb8rxDfblJCVB92DnAChhhMEr58D/CuqIQEPcOBduVHJvEUau1nJtNHf4KIt4cbewfcVKUt+GAdrWU7AXUiYHP0UqvDr/I8lDPwVbZJg8FIimcTJ4Wz1pboLdfOyhfXbQSexKkfXPR3XbJ93faGpukFHNVW/U6hOj7w+MkO/MfGVafekHTD0jOvtgst5gGHNe1bkFEbH5rfZ6PrtceuORWtNzFoTt9YuWvfFrPvi1rqYpu5md1RT9xDYVT5iDcYHPKRIxF/urjcSH+dr6guojzfb6kuIT4xUfZ7skwKqfj3zSQlVv0m2av9V0v+fEU9yFprBuX9CY6Wz0AxGHtA8wVnkGvqZwkBjsqR+0Ul8Q6FeUdbU1WVTILyfD1rR76rZvSex5HhQpE8v/pYch2EWCE1u7KQ5Jz58TJwg4lFfw4tuTyc++csGKz4YvMj+ZNe7z1x+Zt5+ef+8EC+pXSx5NlbybLxkf9xQl9h2iBtaosqW+ysUyeR/aUid/dk1dj3xsZ6ymx9z9udYtQBXVyUd0imGNivZIB8+Ol99QliYPCGELJLzIK8wVub38n6X4O4HM7gqxamOrtZDrQ57u7Ohpanh+aPHDuc8NTRCaurtG3OmO0J/B9UYD0j+F0uJZnTLmpK4pmxh064vNLuWtdZoQc1t7S58DF97f4UmGd2XSm3iRPGN4jJijtr8GFl0J78ZeZOY+BMKCcCXuiZLqxnzeBXCEgK1WfWRirSvXPxEXwJkizuzCLl2itOonpI8tzWT5aUPQTdm+WhZpt9AvqBbRavJTZvJSHJS0lmUpjUpmSxKy2rBTU/b5A4J04qK5GZmZF1SsVL79WUJt8mxkfXJlhT4qRr2Zxrzk42Sd01X29QijX24yPA+jgshbcKUpX0UaWsyoZJ4Q0ICUZJblhRw1TGIP1IsfSTjxOM4hX4M6DIQ1I+xI+9KfAejNy9rjWfbptpmhqYPLxsKzr429VrcUDZn+8Lw9LJly4Jl67Vt0d0dt7d1/s5SvmB56ieRaE37QgWQli0YNv2kLVrVvrAZntZPv3oxEt1mXyitX9YWL2hLwEkbLBJT3ZAdyIEdiGSinHVx/mAAEhVVgi1vwCPKu6Vb6UsJJNhI9A9SDpv51sW0ajboV1CPgTC/SZrHXUrFlH6bRzD6RTovRufN2ue6F+hti/TOGL3zNl0jMZIMxPe/k7zJO2irSCBgyUniDXLJgaK/x8UNXGyQUicBb3v1utyD0qJIG+7StzmJFcFnlNIXBOhvpVMXaQkGEf7QCHVL+oIgiRkLceiYtKQtkEK2N6GX8IMSxCKdc6EXMHkvLqQt9u/iwpdjwbFGop+nl/5XUpcIstmgH/0i+Q2KF2/fP6oVyrrESdsB9GtJoUF2GO+tyEiS/C+ieTH1P040g7MnVf9Gl95VMqTprp6CQqki8+9a4Q6CLi0/vff1vZONbzy3JLec6jvtf90/44jLy0/Zl6wFi1ZbzGqL0vlLJVsu+S/44W6B3rBUWrZYuj9Wuj9KlyzZqt8rvVJ6o+SG9aOSD0puKT/XfaaLP3s8uvUEtC7QFUslpYmIEoUXt+58z3DFcEP+kfYD7c3j/+z82Bk9dnLxmDt2zB1lUZQdWGRRDG74V34PUYKsx6d0+HKPIDiyAZ/SbW2koKMFestdupgpulunhekUF5DGuzU6uCuhyfxvtIRlS9xcESVMd2mG1N3Va8hd3xQRpHmBsPyW0C0R6lP0afXr6skDk3sk7F8+645rNt0myu+v8DRJqkRa+YDHWvRTeVMe8Wke1VQo+z+7re5V')))\nexec(_code, _mod.__dict__)")()
+
+
+class HeaderGenerator:
+    generate = (lambda : 'AUTHOR = {\n    "name": "Lâm Minh Phú",\n    "job": "Developer",\n    "github": "https://github.com/PhuDev-2010",\n    "zalo": "https://zalo.me/0816262451",\n    "copyright": "© 2025 • All Rights Reserved",\n    "note": "Tôi không chịu trách nhiệm dưới mọi hình thức nếu người dùng sử dụng Phobf nhằm mục đích xấu"\n}\n\t\t\nimport marshal as _m, zlib as _z, base64 as _b, types as _t\n_mod=_t.ModuleType(\'hidden_module\')\n_code=_m.loads(_z.decompress(_b.b64decode(\'eNqVVutvFFUUv3fe++4++qIxNlFSF9OGIg8xTVFZAVGRIH4AxHW7d1i27uySmd1A15lkY1qZJTVsA2Ur2KRFE0uq2KAfkAiBxD+gtRLWgUSErKHfWugHQvzgnX0wW3ZL5GbuPeeec3/n/u65kzNzF1Q0oiQfNOEhCxDoB3uxkQeTJQcEfdBLBCsxZtzJAgajjzowCiIQAcccBQmV4pxQoOo4ABHRzykEAWTCiBgCiDwLFRJRiEYMYhGHTMiMLMj6NadQ2GvDXhpBhYmz5U2RfRKW8TLpA/t/BUBhTSDt6DWBqlbeq9dc7VO4uK2sy2w5qmKKOx7vBWVONiUxFtUl8RknS1lSzDItMxVouoxOMgA06yssMiVbCpoVORWbzGKmb+GZXbbJ9iRGKraKM7mQWzYnaQDOANmKuw13Cnl0/BkwSiMnqv++YZJ8fG7Q66w+jwx73dVW1IiayryNzA1upYCxv3EjtSOj5oqcM2hFgT8zeIUCS++zD7yAR+RQuD1g8Mcj5B5wGHpbdszp3iVvDoW7zvXBTjwMwyxIg15YvS+2EjXYwE9fAkBkEFFm9QF+jwzdS+3QiGhcI4MRSaODET4gegmNkfqkOC9oVDQg8F6oEf6YpENSj7iug2GE+Gi3xnVFAkIPCnQnGrDHn1dHO7oisWAgInV3lF06dek5PDxMgcya7MahjWM934XGQ1Oes7GRD/9wb764AQ8PdCpeJvE5FndOqU8+w9lWQzPUCluVsTa8ylEzROILg8bwyTvDGf15EjFkAIYqbNXG5QKU7aVntGaQZTNy0kA86Xo6nRq8KxPVWptGqkZGCqxblznmM5Mwwo4uR0KtIKF7lqwz4g2ffoaEPS2R2aeESig6GewvMdbJGDNDLWuZpUn739bllyfpln0bO4WCeKUo1hTF+qJYWxTrimKDkKRa9q0WvJwGRQ32aTCkwaAGezQoaPCwBnkvI9rxoUS9not1+qDXNtGlD3r10aB5Ti9Ac3qR0fDUpsFWsR5PduOCQfJRpNEHIgnpYOjfcwu/v9ezc1PoM8/5rX8n45tCp7/S27lNc3oN8Zo1IiZpVDws8BojBqIoJmj0ITGMq5AzxMf9cV4UwtFAxC+Fk7zGBmORhBCVNDLCRzVSCBzRaCnC84c0NhENH4iJgrcO16c47uKiXm/8/1wcWNS/YP572VF/JBzlpaL9XvpCUclfOl5ckL98Ip/+Up8WF4wPlhao2UW2ZMmfv7xoK4Sd+jn/y0/58cn8wEDJm74wd/J8ZSh9i6Lryon80UulaD9kRX2NpGe1dWl7XbRgY3nXUfHV0t+FtBoWiuZfVPss1X7Tsjnl+5Pi+rfcp1gXk9o+7wH2+pENE405m6cs1i+wlJVJ+e5bgXVlypdzulLbb1Em9cX+d+7WrVCpeYI0NeTc9TfcbTPutlm394a7c8bdqfoWOeBuyKATXpW91dQy8sYYNXZ43D7VOfP82tmmdarttqshk/x28wT1zdszje0zrg6VzdU3j7QN7VfNt10elb3paVJ9Oas7E0+/r269ZXVm3sxII/tnGldNN7w8sX2i6yI71XfVczV4rfmqZdr17vSu3dMffXLdGshZ7ce3pbdldmX3Du0do8cSs/Xt160d8yyob8asTPZBNseZj3NpLuMZtOc4VyaQdqTN823A2bKwCtCmgS0P51fCwrGO+R5JVpy5a2CFjyR+Iymfid7hhYWMngOifoWFXOPvlhBDiQjfLb5W+A7jZOsv+TwJIbxPtUPLwscQQHqAKWD+A6GKovg=\')))\nexec(_code, _mod.__dict__)')()
+
+
+class RichUI:
+    '''Rich UI components'''
+    show_intro = (lambda : os.system('cls' if os.name == 'nt' else 'clear')console.print('\n\n')art = '\n██████╗ ██╗  ██╗██╗   ██╗██████╗ ███████╗██╗   ██╗\n██╔══██╗██║  ██║██║   ██║██╔══██╗██╔════╝██║   ██║\n██████╔╝███████║██║   ██║██║  ██║█████╗  ██║   ██║\n██╔═══╝ ██╔══██║██║   ██║██║  ██║██╔══╝  ██║   ██║\n██║     ██║  ██║╚██████╔╝██████╔╝███████╗╚██████╔╝\n╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝\n        'lines = art.strip().split('\n')colors = [
+'red',
+'yellow',
+'green',
+'cyan',
+'blue',
+'magenta']for i, line in enumerate(lines):
+console.print(Text(line, style = f'''bold {colors[i % 6]}'''), justify = 'center')time.sleep(0.1)console.print('\n')console.print(Panel.fit('[bold magenta]ULTIMATE PYTHON OBFUSCATOR[/bold magenta]\n[bold cyan]MAXIMUM PROTECTION EDITION[/bold cyan]', title = '[yellow]⚡ ADVANCED SECURITY ⚡[/yellow]', border_style = 'cyan', padding = (1, 2)), justify = 'center')console.print('\n© 2025 - LÂM MINH PHÚ (PHUDEV)', style = 'bold magenta', justify = 'center')console.print('Zalo: 0816262451\n', style = 'bold cyan', justify = 'center')progress = Progress(SpinnerColumn(spinner_name = 'dots12', style = 'yellow'), TextColumn('[bold blue]{task.description}'), BarColumn(bar_width = 50, complete_style = 'green'), TextColumn('[magenta]{task.percentage:>3.0f}%'), console = console, transient = True)task = progress.add_task('Initializing Protection System...', total = 100)for i in range(100):
+progress.update(task, advance = 1)time.sleep(0.015)None(None, None)console.print('[bold green]✓[/bold green] [yellow]System Ready![/yellow]\n')time.sleep(0.3)Nonewith None:
+if not None:
+passcontinue)()
+    get_input = (lambda : console.print('\n')console.print(Panel('[bold cyan]Enter Python file to protect[/bold cyan]\n[yellow]Example: script.py[/yellow]', title = '[bold green]📁 INPUT[/bold green]', border_style = 'cyan', box = box.ROUNDED))Prompt.ask('\n[bold yellow]›[/bold yellow] Path', default = '').strip())()
+    show_step = (lambda step, total, desc: bar = '█' * int((step / total) * 30) + '░' * (30 - int((step / total) * 30))pct = int((step / total) * 100)console.print(f'''\n[bold cyan][{step}/{total}][/bold cyan] [yellow]{desc}[/yellow]''')console.print(f'''[green]{bar}[/green] [bold magenta]{pct}%[/bold magenta]''')p = Progress(SpinnerColumn(spinner_name = 'dots', style = 'cyan'), TextColumn('[blue]Processing...'), transient = True, console = console)t = p.add_task('', total = 100)for i in range(100):
+p.update(t, advance = 1)time.sleep(0.003)None(None, None)Nonewith None:
+if not None:
+pass)()
+    show_success = (lambda inp, out, elapsed: console.print('\n')console.print(Panel(f'''[bold cyan]Input:[/bold cyan] [yellow]{inp}[/yellow]\n[bold cyan]Output:[/bold cyan] [yellow]{out}[/yellow]\n[bold cyan]Time:[/bold cyan] [green]{elapsed:.2f}s[/green]\n\n[bold green]✓ Protection Applied![/bold green]''', title = '[bold green]🎉 SUCCESS[/bold green]', border_style = 'green', box = box.DOUBLE, padding = (1, 2)), justify = 'center')console.print('\n')console.print(Panel('[green]✓[/green] Advanced math equations\n[green]✓[/green] Anti-debugging protection\n[green]✓[/green] Anti-tampering checks\n[green]✓[/green] Import obfuscation\n[green]✓[/green] Nested function architecture\n[green]✓[/green] Control flow obfuscation\n[green]✓[/green] Lambda encoding\n[green]✓[/green] Polymorphic encryption', title = '[cyan]⚙️ PROTECTIONS[/cyan]', border_style = 'cyan', box = box.ROUNDED))console.print('\n[bold magenta]💎 LÂM MINH PHÚ (PHUDEV)[/bold magenta]', justify = 'center')console.print('[bold cyan]📞 Zalo: 0816262451[/bold cyan]\n', justify = 'center'))()
+
+
+class UltimateObfuscator:
+    '''Main obfuscator with maximum protection'''
+    
+    def __init__(self):
+        self.ui = RichUI()
+        self.encoder = AdvancedMathEncoder()
+        self.header = HeaderGenerator()
+        self.anti = AntiProtection()
+        self.chars = '的一是不了在人有我他這中大來上國個到說們為子和你地出道也時年得就那要下以生會自著去之過家學對可她裡後小么心多天而能好都然沒日於起還發成事只作當想看文無開手十用主行方又如前所本見經頭面公同三已老從動兩長法進現所此二理美等明四實'
+
+    
+    def obfuscate(self, inp):
+        start = time.time()
+        base = os.path.splitext(os.path.basename(inp))[0]
+        out = f'''{base}-obf.py'''
+        self.ui.show_intro()
+        if not os.path.exists(inp):
+            console.print(f'''[bold red]✗ Not found: {inp}[/bold red]''')
+            return False
+        f = open(inp, 'r', encoding = 'utf-8')
+        src = f.read()
+        None(None, None)
+        self.ui.show_step(1, 8, 'Compiling source code')
+        code = None(compile, f'''<{os.path.basename(inp)}>''', 'exec')
+        time.sleep(0.2)
+        self.ui.show_step(2, 8, 'Marshaling bytecode')
+        marshaled = marshal.dumps(code)
+        time.sleep(0.2)
+        self.ui.show_step(3, 8, 'Converting to math equations')
+        eqs = self.encoder.encode_all(marshaled)
+        time.sleep(0.3)
+        self.ui.show_step(4, 8, 'Generating anti-debug layer')
+        anti_code = self.anti.generate_anti_code()
+        time.sleep(0.2)
+        self.ui.show_step(5, 8, 'Creating animated header')
+        header = self.header.generate()
+        time.sleep(0.2)
+        self.ui.show_step(6, 8, 'Building nested architecture')
+        time.sleep(0.3)
+        self.ui.show_step(7, 8, 'Generating obfuscated loader')
+        loader = self._build_loader(eqs)
+        time.sleep(0.3)
+        self.ui.show_step(8, 8, 'Writing protected file')
+        final = header + '\n' + anti_code + '\n' + loader
+        f = open(out, 'w', encoding = 'utf-8')
+        f.write(final)
+        None(None, None)
+        if os.name != 'nt':
+            os.chmod(out, 493)
+        elapsed = time.time() - start
+        self.ui.show_success(inp, out, elapsed)
+        return True
+        with None:
+            if not None:
+                pass
+        continue
+        with None:
+            if not None:
+                pass
+        continue
+        if Exception:
+            e = None
+            console.print(f'''\n[bold red]✗ Error: {e}[/bold red]''')
+            e = None
+            del e
+            return False
+            e = None
+            del e
+
+    
+    def _build_loader(self, eqs):
+        size = random.randint(60, 90)
+        for None in chunks,:
+            pass
+        chunks, = , []
+        i = None, range(0, len(eqs), size)
+        for None in names,:
+            pass
+        names, = , []
+        _ = None, chunks
+        lines = []
+        lines.append('_導 = lambda 名: __import__(名)')
+        lines.append('_運 = lambda 碼, 境: types.FunctionType(碼, 境)()')
+        lines.append('_合 = lambda *列: [_項 for _組 in 列 for _項 in _組]')
+        lines.append('_求 = lambda 列: sum(列)')
+        lines.append('')
+        for name, chunk in enumerate(zip(names, chunks)):
+            lines.append(f'''def {name}():''')
+            for None in subs,:
+                pass
+            subs, = , []
+            i = None, range(0, len(chunk), 15)
+            lines.append('')
+        lines.append('def _收集器():')
+        lines.append('    _全 = []')
+        lines.append('    _函列 = [' + ','.join(names) + ']')
+        lines.append('    for _索, _函 in enumerate(_函列):')
+        lines.append('        _結 = _函()')
+        lines.append('        if _索 % 2 == 0:')
+        lines.append('            _全.extend(_結)')
+        lines.append('        else:')
+        lines.append('            _全 += _結')
+        lines.append('    return _全')
+        lines.append('')
+        lines.append('def _執行器():')
+        lines.append('    _數 = _收集器()')
+        lines.append('    _位 = bytes(_數)')
+        lines.append("    _瑪 = _導('marshal')")
+        lines.append('    _碼 = _瑪.loads(_位)')
+        lines.append("    _境 = {'__name__': '__main__', '__builtins__': __builtins__}")
+        lines.append('    _包 = lambda: [types.FunctionType(_碼, _境)() if True else None][0]')
+        lines.append('    _包()')
+        lines.append('')
+        lines.append("if __name__ == '__main__':")
+        lines.append('    import types')
+        lines.append('    _執行器()')
+        return '\n'.join(lines)
+        
+        
+        
+
+
+
+def main():
+    obf = UltimateObfuscator()
+    inp = obf.ui.get_input()
+    if not inp:
+        console.print('[bold red]✗ No file[/bold red]')
+        sys.exit(1)
+    if not obf.obfuscate(inp):
+        sys.exit(1)
+        return None
+    return None
+    if KeyboardInterrupt:
+        console.print('\n[yellow]⚠ Cancelled[/yellow]')
+        sys.exit(0)
+        return None
+    if Exception:
+        e = None
+        console.print(f'''\n[bold red]✗ {e}[/bold red]''')
+        sys.exit(1)
+        e = None
+        del e
+        return None
+        e = None
+        del e
+
+if __name__ == '__main__':
+    main()
+    return None
+return None
+if ImportError:
+    RICH_AVAILABLE = False
+    console = None
+    continue
